@@ -1,0 +1,27 @@
+{
+  "title": "List of travian.com subdomains",
+  "subtitle": "Travian possible server list.",
+  "description": "List of travian.com subdomains that are potential candidates for having a map.sql resource.",
+  "id": "sirwerto/travian-subdomain-list",
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "resources": [
+    {
+      "path": "travian_subdomain_list.csv",
+      "description": "List of travian.com subdomains that are potential candidates for having a map.sql resource.",
+      "schema": {
+        "fields": [
+          {
+            "name": "subdomain",
+            "description": "Travian subdomain that may be serving a map.sql file.",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ],
+    "keywords": ["Games", "Beginner", "Intermediate", "Advanced"]
+}

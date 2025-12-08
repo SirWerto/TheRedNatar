@@ -1,0 +1,12 @@
+{
+  "title": "Travian map.sql snapshots",
+  "subtitle": "Travian map.sql daily snapshots.",
+  "description": "Travian snapshots collelected in a daily basis.",
+  "id": "sirwerto/travian-map-snapshots",
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+    "keywords": ["Games", "Beginner", "Intermediate", "Advanced"]
+}
