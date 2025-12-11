@@ -16,7 +16,7 @@ echo "Start collection"
 echo "Create env"
 python -m venv $TMP_FOLDER/venv
 source $TMP_FOLDER/venv/bin/activate
-pip install -r $REPO_FOLDER/requirements.txt
+pip install -r $REPO_FOLDER_PATH/requirements.txt
 
 echo "1 - Fetch server list"
 SERVER_LIST_FILE_PATH=$TMP_FOLDER/servers.csv
