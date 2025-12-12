@@ -1,21 +1,7 @@
 {
   "title": "Travian map.sql snapshots",
   "subtitle": "Travian map.sql daily snapshots.",
-    "description": "Travian snapshots (map.sql) collelected in a daily basis.
-You could read this post by Travian team about the content of the file https://support.travian.com/en/support/solutions/articles/7000092469-what-is-map-sql-and-how-can-you-use-it-in-travian-legends-
-
-I will try to maintain a table mapping the tribe value with the corresponding tribe name in the game.
-
-tribe_id -> tribe_name
-1 -> 
-2 -> 
-3 -> 
-4 -> 
-5 -> 
-6 -> 
-7 -> 
-8 -> 
-
+    "description": "Travian snapshots (map.sql) collelected in a daily basis. You could read this post by Travian team about the content of the file https://support.travian.com/en/support/solutions/articles/7000092469-what-is-map-sql-and-how-can-you-use-it-in-travian-legends-
 ",
   "id": "sirwerto/travian-map-snapshots",
   "licenses": [
