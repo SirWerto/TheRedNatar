@@ -1,7 +1,7 @@
 {
   "title": "List of travian.com subdomains",
   "subtitle": "Travian possible server list.",
-  "description": "List of travian.com subdomains that are potential candidates for having a map.sql resource.",
+  "description": "List of travian.com subdomains that are potential candidates for having a map.sql resource. You could use these domains to extract the server speed. Attached is a notebook showing how to do this.",
   "id": "sirwerto/travian-subdomain-list",
   "licenses": [
     {
@@ -16,7 +16,7 @@
         "fields": [
           {
             "name": "subdomain",
-            "description": "Travian subdomain that may be serving a map.sql file.",
+              "description": "Travian subdomain that may be serving a map.sql file.",
             "type": "string"
           }
         ]
