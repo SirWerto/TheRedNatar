@@ -16,7 +16,7 @@ schema = pa.schema(
         ("grid_position", pa.int32()),
         ("x_position", pa.int32()),
         ("y_position", pa.int32()),
-        ("tribe", pa.int32()),
+        ("tribe_id", pa.int32()),
         ("village_id", pa.int32()),
         ("village_name", pa.string()),
         ("player_id", pa.int32()),
@@ -40,7 +40,7 @@ class MapSQLRow:
     grid_position: int
     x_position: int
     y_position: int
-    tribe: int
+    tribe_id: int
     village_id: int
     village_name: str
     player_id: int
@@ -69,7 +69,7 @@ class MapSQLRow:
             grid_position=int(attr[0]),
             x_position=int(attr[1]),
             y_position=int(attr[2]),
-            tribe=int(attr[3]),
+            tribe_id=int(attr[3]),
             village_id=int(attr[4]),
             village_name=attr[5],
             player_id=int(attr[6]),
