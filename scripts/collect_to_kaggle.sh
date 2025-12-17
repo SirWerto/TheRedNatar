@@ -6,6 +6,7 @@ TRAVIAN_SNAPSHOT_FOLER_PATH=$2
 mkdir -p $TRAVIAN_SNAPSHOT_FOLER_PATH
 
 PRIV_PATH=$REPO_FOLDER_PATH/priv
+KERNELS_PATH=$REPO_FOLDER_PATH/kernels
 SCRIPTS_PATH=$REPO_FOLDER_PATH/scripts
 
 
@@ -31,6 +32,9 @@ time python $SCRIPTS_PATH/clean_raw_map_sql.py $SERVER_LIST_FILE_PATH $SNAPSHOT_
 
 echo "4 - Push snapshots to Kaggle"
 sh $SCRIPTS_PATH/snapshot_to_kaggle.sh $TRAVIAN_SNAPSHOT_FOLER_PATH $PRIV_PATH/travian_map_sql_snapshot.json
+
+echo "5 - Run notebook travian-base-star-schema"
+kaggle kernels push --path $KERNELS_PATH/travian-base-star-schema/
 
 deactivate
 rm -r $TMP_FOLDER
